@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0;margin:0;}
+body{background:url(../image/body_bg.jpg) no-repeat top center;}/*body放背景图片是整个网页的背景图嘛，怎么算图片拉伸完以后位置正好在导航栏的下面*/
+ul li{list-style-type:none;}
+img{border:0;}
+.clr{clear:both;}
+.head{width:100%;height:77px;background:url(../image/head_bg.jpg) repeat-x 0 0;}
+.head .head-con{width:1000px;height:77px;margin:0 auto;}
+.head .head-con a{display:block;width:166px;height:77px;float:left;background:url(../image/logo.png) no-repeat;margin-right:36px;}
+.head .head-con span{display:block;width:201px;height:77px;float:left;background:url(../image/biaoyu.png) no-repeat;}
+.head .head-con .tel{display:block;width:233px;height:77px;float:right;background:url(../image/tel.png) no-repeat;margin-right:10px;}
+/*头部部分完成*/
+.nav{width:100%;height:50px;background:url(../image/nav_bg.jpg) no-repeat top center;}
+.nav .nav-con{height:50px;width:1000px;margin:0 auto;}
+.nav .nav-con ul li{width:134px;height:50px;float:left;line-height:50px;}
+.nav .nav-con ul span{display:block;width:2px;height:50px;background:url(../image/nav_shu.png) no-repeat center center;float:left;margin-left:6px;}
+.nav .nav-con ul li a{display:block;width:134px;height:50px;float:left;line-height:50px;color:#FFF;text-align:center;font-size:16px;text-decoration:none;}
+.nav .nav-con ul li a:hover{color:#C30;}
+/*导航栏结束*/
+.lunbo{width:100%;height:360px;}
+.lunbo .lunbo-con{width:1000px;height:360px;margin:0 auto;background:url(../image/lunbo2.jpg) no-repeat 0 0;}
+.lunbo .lunbo-con .pre{float:left;display:block;margin-top:130px;margin-left:30px;}
+.lunbo .lunbo-con .next{float:right;display:block;margin-top:130px;margin-right:30px;}
+/*轮播结束*/
+.content{width:1000px;height:676px;margin:0 auto;background:#FFF;}
+.content .extra{width:1000px;height:40px;}
+.content .left{width:354px;height:400px;float:left;margin-left:26px;}
+.content .left .left-top{width:354px;height:194px;}
+.content .left .left-top img{width:354px;height:194px;}
+.content .left .left-note{width:354px;height:180px;margin-top:26px;}
+.content .left .left-note span{display:block;width:354px;height:25px;background:url(../image/biaoti_liuyan.jpg) no-repeat 0 0;border-bottom:1px solid #c99643;margin-bottom:10px;}
+.content .left .left-note form input{padding-left:5px;color:#bbbaba;font-size:14px;background-color:#f8f8f8;}
+.content .left .left-note form input[name="name"]{width:121px;height:29px;line-height:29px;float:left;border:1px solid #bbbaba;}
+.content .left .left-note form input[name="tel"]{width:151px;height:29px;float:right;margin-right:3px;line-height:29px;border:1px solid #bbbaba;}
+.content .left .left-note form textarea{width:342px;height:58px;padding:5px;border:1px solid #bbbaba;background-color:#f8f8f8;color:#bbbaba;margin-top:5px;font-size:14px;resize:none;overflow:auto;}
+.content .left .left-note form input[type="button"]{width:73px;height:26px;background-color:#797878;text-align:center;color:#FFF;margin-top:6px;}
+.content .left .left-note form .tijiao{margin-left:90px;margin-right:40px;}
+.content .right{width:558px;height:457px;float:left;margin-left:36px;}
+.content .right .news{width:558px;height:216px;border-bottom:1px solid #c99643;}
+.content .right .news .news-top{width:558px;height:26px;border-bottom:1px solid #c99643;}
+.content .right .news .news-top img{width:102px;heihgt:22px;display:block;float:left;}
+.content .right .news .news-top a{color:#c99643;text-decoration:none;float:right;font-size:14px;height:22px;line-height:22px;display:block;font-famliy:"宋体";}
+.content .right .news .news-con{margin-top:23px;width:558px;}
+.content .right .news .news-con .news-con-left{width:154px;height:141px;float:left;}
+.content .right .news .news-con .news-con-left img{width:154px;height:141px;}
+.content .right .news .news-con .news-con-right{margin-left:17px;margin-top:10px;float:left;display:inline-block;width:387px;}
+.content .right .news .news-con .news-con-right h2{font-size:100%;font-weight:bold;width:387px;}
+.content .right .news .news-con .news-con-right h2 a{text-decoration:none;color:#797979;font-weight:600;font-family:"宋体";letter-spacing:0px;font-size:14px;}
+.content .right .news .news-con .news-con-right h2 span{float:right;font-weight:400;font-size:12px;color:#797979;}
+.content .right .news .news-con .news-con-right p{width:387px;margin-top:14px;text-indent:26px;}
+.content .right .news .news-con .news-con-right p a{text-decoration:none;color:#797979;line-height:22px;font-size:14px;}
+.content .right .news .news-con .news-con-right p a:hover{text-decoration:underline;}
+.content .right .liebiao{width:558px;margin-top:24px;}
+.content .right .liebiao ul li{line-height:36px;height:36px;list-style:none;background:url(../image/dian.png) no-repeat left center;}
+.content .right .liebiao ul li a{color:#797979;text-decoration:none;margin-left:15px;float:left;}
+.content .right .liebiao ul li a:hover{text-decoration:underline;}
+.content .right .liebiao ul li span{color:#797979;float:right;font-size:12px;}
+.content .extra_1{width:1000px;height:24px;}
+.content .pic{width:948px;height:131px;border-top:1px solid #c99643;margin:0 auto;}
+.content .pic ul li{width:181px;height:106px;margin-right:10px;margin-top:24px;float:left;list-style:none;}
+.content .pic .pic_box1{background:url(../image/lianjie_01.jpg) no-repeat 0 0;}
+.content .pic .pic_box1:hover{background:url(../image/lianjie_011.jpg) no-repeat 0 0;cursor:pointer;}
+.content .pic .pic_box2{background:url(../image/lianjie_02.jpg) no-repeat 0 0;}
+.content .pic .pic_box2:hover{background:url(../image/lianjie_021.jpg) no-repeat 0 0;cursor:pointer;}
+.content .pic .pic_box3{background:url(../image/lianjie_03.jpg) no-repeat 0 0;}
+.content .pic .pic_box3:hover{background:url(../image/lianjie_031.jpg) no-repeat 0 0;cursor:pointer;}
+.content .pic .pic_box4{background:url(../image/lianjie_04.jpg) no-repeat 0 0;}
+.content .pic .pic_box4:hover{background:url(../image/lianjie_041.jpg) no-repeat 0 0;cursor:pointer;}
+.content .pic .pic_box5{background:url(../image/lianjie_05.jpg) no-repeat 0 0;margin-right:0px;}
+.content .pic .pic_box5:hover{background:url(../image/lianjie_051.jpg) no-repeat 0 0;cursor:pointer;}
+.extra_2{height:24px;}
+/*内容部分完成*/
+.footer{height:180px;width:100%;background:#404040;}
+.footer .extra_3{height:30px;}
+.footer .footer_con{width:948px;margin:0 auto;}
+.footer .footer_con .logo{width:117px;height:77px;float:left;}
+.footer .footer_con .mag{width:505px;margin-top:10px;float:left;}
+.footer .footer_con .mag .lianjie{height:13px;width:490px;margin-left:15px;}
+.footer .footer_con .mag .lianjie a{text-decoration:none;color:#b3b3b3;font-size:12px;float:left;}
+.footer .footer_con .mag .lianjie a:hover{color:#FFF;}
+.footer .footer_con .mag .lianjie span{color:#797979;margin-left:15px;margin-right:15px;display:block;float:left;font-size:12px;}
+.footer .footer_con .mag p{font-size:12px;line-height:20px;color:#b3b3b3;margin-left:15px;margin-top:5px;}
+.footer .footer_con .weixin{margin-left:50px;width:110px;height:125px;float:left;}
+.footer .footer_con .weixin span{color:#797979;font-size:12px;text-align:center;display:block;margin-top:5px;}
+.footer .footer_con .weishi{margin-left:50px;width:110px;height:125px;float:left;}
+.footer .footer_con .weishi span{color:#797979;font-size:12px;text-align:center;display:block;margin-top:5px;}
